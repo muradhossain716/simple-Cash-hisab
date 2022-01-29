@@ -1,0 +1,57 @@
+body {
+  padding: 100px;
+}
+#login-area h1 {
+  font-weight: 600;
+}
+#submit-area {
+  margin-top: 50px;
+  box-shadow: 6px 5px 10px grey;
+  padding: 41px;
+  border-radius: 5px;
+}
+#submit-area h4 {
+  font-weight: bold;
+}
+.hidden {
+  display: none;
+}
+.transaction-area h1 {
+  font-weight: 600;
+}
+#transactions {
+  margin-top: 50px;
+}
+.deposit {
+  background-color: slateblue;
+}
+.widraw {
+  background-color: lightblue;
+}
+.balance {
+  background-color: orange;
+}
+.trans-style {
+  width: 81%;
+  padding: 5%;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+.trans-style h2,
+h5 {
+  font-size: 42px;
+}
+.widraw-area,
+.deposit-area {
+  box-shadow: 6px 5px 10px grey;
+  padding: 67px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.col-md-6 h4 {
+  font-size: 30px;
+}
+.mt {
+  margin-top: 80px6;
+}

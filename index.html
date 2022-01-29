@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Hisab</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="login-area">
+        <h1 class="text-center">Welcome to My Hisab</h1>
+        <div id="submit-area">
+          <h4>Login</h4>
+          <input
+            type="text"
+            name=""
+            class="form-control"
+            id=""
+            placeholder="Email"
+          />
+          <br />
+          <input
+            type="password"
+            class="form-control"
+            name=""
+            id=""
+            placeholder="Password"
+          />
+          <br />
+          <div class="btn btn-success" id="login">Enter</div>
+        </div>
+      </div>
+      <div class="hidden transaction-area">
+        <h1 class="text-center">Transaction Here</h1>
+        <div id="transactions">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="deposit trans-style">
+                <h2>Deposit</h2>
+                <h5>$<span id="deposit">00</span></h5>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="widraw trans-style">
+                <h2>Widraw</h2>
+                <h5>$<span id="widraw">00</span></h5>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="balance trans-style">
+                <h2>Balance</h2>
+                <h5>$<span id="balance">1240</span></h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt">
+            <div class="col-md-6">
+              <div class="deposit-area">
+                <h4>Deposit</h4>
+                <input
+                  type="text"
+                  placeholder="$amount you want to deposit"
+                  class="form-control"
+                  id="deposit-amount"
+                />
+                <br />
+                <button class="btn btn-success deposit-btn">Deposit</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="widraw-area">
+                <h4>Widraw</h4>
+
+                <input
+                  type="text"
+                  placeholder="$amount you want to widraw"
+                  class="form-control"
+                  id="widraw-amount"
+                />
+                <br />
+                <button class="btn btn-success widraw-btn">Widraw</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
